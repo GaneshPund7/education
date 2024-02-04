@@ -1,0 +1,34 @@
+ 
+#card{
+    align-items: center;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 490px;
+    padding-top: 10px;
+}
+.item{
+    align-items: flex-start;
+}
+.te{
+    width: 250px;
+    border-radius: 5px;
+     
+}
+#login{
+    border-radius: 5px;
+    width: 250px;
+    height: 45px;
+}
+.bg-image {
+    height: 100vh;  
+    background-size: cover;  
+    background-position: center;  
+    background-repeat: no-repeat;  
+  }
+  @media (max-width: 767px) {   
+    .dhimg {
+        height: 170px;
+    }
+}

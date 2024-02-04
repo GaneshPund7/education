@@ -1,0 +1,118 @@
+
+<div class="container-fluid">
+  <nav class="navbar fixed-top navbar-expand bg-body-tertiary bg-dark" style="height:52px;">
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav me-auto mb-2 ">
+        <li class="nav-item me-2">
+         
+          <img id="logo" src="assets/logo.jpeg" alt="hero" class="img-responsive">
+        </li> 
+        <li class="nav-item ">
+          <h4 class="text-light mx-auto me-5 mt-2 hidenavitem">Sp3College</h4>
+        </li>  <li class="nav-item ">
+          <h4 class="text-light mx-auto me-4 mt-2 shownavitem">Sp3</h4>
+        </li>
+        <li class="nav-item hidenavitem">
+          <a routerLink="dashboard" class=" mx-auto ml-50 nav-link active text-white me-5 ">Home</a>
+        </li>
+        <li class="nav-item hidenavitem">
+          <a routerLink="about" class=" nav-link active text-white me-5">About</a>
+        </li>
+      
+        <li class="nav-item  ">
+          <a routerLink="jobs" class=" nav-link active text-white me-5">Jobs</a>
+        </li>
+        <li class="nav-item hidenavitem">
+          <a routerLink="JavaIQ" class=" nav-link active text-white me-5">Java Notes</a>
+        </li>
+        <li class="nav-item feesasy ">
+          <a routerLink="FEAllNotes" class=" nav-link active text-white me-3" >FE Qn Paper</a>
+        </li>
+        <li class="nav-item hidenavitem ms-5">
+          <a routerLink="jobsadd" class=" nav-link active text-white me-5"></a>
+        </li>
+      </ul>
+      <form class="d-flex " role="search" >
+        <!-- <i class="fa fa-search text-white me-2 mb-2 search"></i> -->
+        <input class="form-control me-2 form-control-sm searchbar hidenavitem w-100" type="search" placeholder="Search..." aria-label="Search">
+        <button class="btn btn-warning me-3 btn-sm hidenavitem" type="submit">Search</button>
+        <button routerLink="login" class="btn btn-danger me-3 btn-sm">Login</button>
+      </form>
+
+    </div>
+  </nav>
+<br>
+<br>
+  <div class="app" style="display: flex; height: 100vh; overflow:scroll initial">
+    <CDBSidebar textColor="#ffffff" backgroundColor="#333333" >
+      <CDBSidebarHeader [prefix]="icon">
+        <ng-template #icon>
+          <i class="fa fa-bars fa-large"></i>
+        </ng-template>
+         Contrast 
+      </CDBSidebarHeader>
+      <CDBSidebarContent class="sidebar">
+        <CDBSidebarMenu class="sidebar-content">
+          <CDBSidebarMenuItem routerLink="dashboard" icon="home">
+           Home
+          </CDBSidebarMenuItem>
+          <CDBSidebarMenuItem routerLink="about" icon="user">
+            About Us
+          </CDBSidebarMenuItem>
+          <hr>
+          <CDBSidebarMenuItem routerLink="JavaIQ" icon="check">
+            Java Notes
+          </CDBSidebarMenuItem>
+          <hr>
+          
+          <CDBSidebarMenuItem routerLink="chemistry" icon="book">
+            Chemistry
+          </CDBSidebarMenuItem>
+          <CDBSidebarMenuItem routerLink="physics" icon="book">
+            Physics
+          </CDBSidebarMenuItem>
+        
+          <CDBSidebarMenuItem routerLink="electronics" icon="book">
+            Electronics
+          </CDBSidebarMenuItem>
+          <CDBSidebarMenuItem routerLink="FeElectrical" icon="book">
+            Electrical
+          </CDBSidebarMenuItem>
+        
+        </CDBSidebarMenu>
+      </CDBSidebarContent>
+      <div class="mt-auto">
+  
+        <CDBSidebarFooter style="text-align: center; margin-top: auto;">
+          <div class="sidebar-btn-wrapper" style="padding: 10px 5px">
+            <div class="social">
+              <div >
+                <div style="display:flex;">
+                  <a href="" target="_blank">
+                    <img src="https://waiu-restaurant.s3.ap-south-1.amazonaws.com/static/social/facebook_logo-1.png"
+                      alt="" width="20" height="20"
+                      style="height:auto;display:block;border-radius: 15px;"></a>&nbsp;&nbsp;
+  
+                  <a href="https://instagram.com/_ganesh_7_7?igshid=Ym5wcTZrcmprdDQw" target="_blank">
+                    <img src="https://waiu-restaurant.s3.ap-south-1.amazonaws.com/static/social/Instagram1.png" alt=""
+                      width="20" height="20" style="height:auto;display:block;border-radius: 15px;"></a>&nbsp;&nbsp;
+  
+                  
+                  <br>
+                  <br>
+                </div>
+              </div>
+            </div>
+          </div>
+        </CDBSidebarFooter>
+      </div>
+    </CDBSidebar>
+    <div class="container-fluid">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+
+</div>  
+
+
+

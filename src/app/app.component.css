@@ -1,0 +1,51 @@
+#logo{
+    margin-top: 10px;
+    flex: auto;
+   width: 30px;
+   height: 30px;
+   border-radius: 4px;
+}
+.social {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+ }
+ @media(min-width: 766px){
+    .shownavitem {
+        display: none;
+    } 
+ }
+ @media (max-width: 767px) {
+    
+    .hidenavitem {
+        display: none;
+    }
+    .searchbar{
+        width: 70px;
+        height: 30px;
+        
+    }
+    .feesasy{
+        font-size: small;
+    }
+}
+@media (min-width: 767px){
+    .search{
+        display: none;
+        }
+}
+.sidebar-hidden {
+    transform: translateX(-250px);
+  }
+  .sidebar {
+    width: 250px;
+    background-color: #333;
+    color: #fff;
+    transition: transform 0.3s;
+  }
+  @media (max-width: 768px) {
+    .sidebar {
+      display: none;
+    }
+}

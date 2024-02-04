@@ -1,0 +1,843 @@
+<div class="">
+    <nav class="navbar navbar-expand bg-body-tertiary bg-info" style="height: 51px;">
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav me-auto mb-2">
+                <li class="nav-item hidenavitem">
+                    <button (click)="scroll(paper2022)" class="btn btn-info text-white me-5 ">2022 may Exam
+                        Paper</button>
+                </li>
+                <li class="nav-item hidenavitem">
+                    <button (click)="scroll(paperdec2022)" class="btn btn-info text-white me-5 ">2022 Dec Exam
+                        Paper</button>
+                </li>
+                <li class="nav-item">
+                    <button class="btn btn-info text-white float-end" (click)="toggelViewPhy()" type="button"> Back To List </button> 
+                </li>  
+            </ul>
+        </div>
+    </nav>
+    <section #paper2022>
+        <div class="col-sm-10">
+            <div class="text-center">
+                <h3 class="text-info">FE All Question Paper</h3>
+                <h5>SPPU (2019 Pattern) F.E. (Semester - I)</h5>
+                <h4>ENGINEERING PHYSICS</h4>
+                <h3> (May-2022 Exam Paper) (107009)</h3>
+                <button class="btn btn-link" (click)="scroll(paperdec2022)">Click here to get Dec 2022 exam
+                    paper</button>
+
+            </div>
+            <div>
+                <h5 class="text-info">Q1) Write the correct option with answer for the following :</h5>
+                <hr>
+                <div>
+                    <h5>i) The wavelength λ associated with a particle of mass m moving with
+                        velocity v is given by</h5>
+                    <div class="col-sm-12">
+                        <div class="col-sm-6">
+                            <p> <img src="./assets/phyeqmcq1a.png" alt=""></p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p><img src="./assets/Screenshot (261).png" alt=""></p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p><img src="./assets/Screenshot (261).jpeg" alt=""></p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p><img src="./assets/Screenshot (261).jpg" alt=""></p>
+                        </div>
+
+                        <div>
+                            <button class="text-info btn btn-link" *ngIf="hideansbtn" (click)="showAns1()">
+                                <h5>View Answer</h5>
+                            </button>
+                            <button class="text-info btn btn-link" *ngIf="!hideansbtn" (click)="HideAns1()">
+                                <h5>Hide Answer</h5>
+                            </button>
+                            <div *ngIf="!hideansbtn">
+                                <p class="text-info"><span class="text-dark">Answer:</span><img
+                                        src="./assets/phyeqmcq1a.png" alt=""></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div>
+                    <h5>ii)The equation of motion of matter wave was derived by.</h5>
+                    <div class="col-sm-12">
+                        <div class="col-sm-6">
+                            <p>A)Heisenberg</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>B) Bohr</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>C) De Broglie</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>D)Schrodinger</p>
+                        </div>
+                        <button class="text-info btn btn-link" *ngIf="hideansbtn1" (click)="showAns2()">
+                            <h5>View Answer</h5>
+                        </button>
+                        <button class="text-info btn btn-link" *ngIf="!hideansbtn1" (click)="HideAns2()">
+                            <h5>Hide Answer</h5>
+                        </button>
+                        <div *ngIf="!hideansbtn1">
+                            <p class="text-info"><span class="text-dark">Answer:</span> C) De Broglie</p>
+                        </div>
+                        <div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div>
+                    <h5>iii) In metals the band gap energy / forbidden energy gap is</h5>
+                    <div class="col-sm-12">
+                        <div class="col-sm-6">
+                            <p>A) 0 eV</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>B) 0.7 eV</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>C) 1.12 eV</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>D) > 5 eV</p>
+                        </div>
+                        <button class="text-info btn btn-link" *ngIf="hideansbtn2" (click)="showAns3()">
+                            <h5>View Answer</h5>
+                        </button>
+                        <button class="text-info btn btn-link" *ngIf="!hideansbtn2" (click)="HideAns3()">
+                            <h5>Hide Answer</h5>
+                        </button>
+                        <div *ngIf="!hideansbtn2">
+                            <p class="text-info"><span class="text-dark">Answer:</span> A) 0 eV</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div>
+                    <h5> iv) A solar cell work on the principle of</h5>
+                    <div class="col-sm-12">
+                        <div class="col-sm-6">
+                            <p>A) Photoelectric effect</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>B) Photoluminescence effect</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>C) Photovoltaic effect</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>D) Photocombustion effect</p>
+                        </div>
+                        <button class="text-info btn btn-link" *ngIf="hideansbtn3" (click)="showAns4()">
+                            <h5>View Answer</h5>
+                        </button>
+                        <button class="text-info btn btn-link" *ngIf="!hideansbtn3" (click)="HideAns4()">
+                            <h5>Hide Answer</h5>
+                        </button>
+                        <div *ngIf="!hideansbtn3">
+                            <p class="text-info"><span class="text-dark">Answer:</span>C) Photovoltaic effect</p>
+                        </div>
+
+                    </div>
+                </div>
+                <hr>
+                <div>
+                    <h5>v) The relative permeability can be expressed by</h5>
+                    <div class="col-sm-12">
+                        <div class="col-sm-6">
+                            <p>A) ) μr
+                                = 1 + μ0</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>B) μr
+                                = 1 + x</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>C) 0 r m x
+                                m =</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>D) μr
+                                = μ0
+                                + μa</p>
+                        </div>
+                        <button class="text-info btn btn-link" *ngIf="hideansbtn4" (click)="showAns5()">
+                            <h5>View Answer</h5>
+                        </button>
+                        <button class="text-info btn btn-link" *ngIf="!hideansbtn4" (click)="HideAns5()">
+                            <h5>Hide Answer</h5>
+                        </button>
+                        <div *ngIf="!hideansbtn4">
+                            <p class="text-info"><span class="text-dark">Answer:</span>D) μr
+                                = μ0
+                                + μa</p>
+
+                        </div>
+
+                    </div>
+                </div>
+                <hr>
+                <div>
+                    <h5>vi) Superconductivity is the phenomenon in which ________ of materials
+                        suddenly disappears below critical temperature..</h5>
+                    <div class="col-sm-12">
+                        <div class="col-sm-6">
+                            <p>A) Capacitance</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>B) Conductivity</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>C) Inductance</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>D) Resistance</p>
+                        </div>
+                        <button class="text-info btn btn-link" *ngIf="hideansbtn5" (click)="showAns6()">
+                            <h5>View Answer</h5>
+                        </button>
+                        <button class="text-info btn btn-link" *ngIf="!hideansbtn5" (click)="HideAns6()">
+                            <h5>Hide Answer</h5>
+                        </button>
+                        <div *ngIf="!hideansbtn5">
+                            <p class="text-info"><span class="text-dark">Answer:</span>D) Resistance</p>
+                        </div>
+
+                    </div>
+                </div>
+                <hr>
+                <div>
+                    <h5>vii) Ultrasonic waves have frequency.</h5>
+                    <div class="col-sm-12">
+                        <div class="col-sm-6">
+                            <p>A) Less than 20 H</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>B) 20 Hz
+                                to 20 kH</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>C) Sn on Fe</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>D) Fe on Zn</p>
+                        </div>
+                        <div>
+                            <button class="text-info btn btn-link" *ngIf="hideansbtn6" (click)="showAns7()">
+                                <h5>View Answer</h5>
+                            </button>
+                            <button class="text-info btn btn-link" *ngIf="!hideansbtn6" (click)="HideAns7()">
+                                <h5>Hide Answer</h5>
+                            </button>
+                            <div *ngIf="!hideansbtn6">
+                                <p class="text-info"><span class="text-dark">Answer:</span> B) 20 Hz
+                                    to 20 kH</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div>
+                    <h5>viii) In nanomaterials which of the following statement is correct.</h5>
+                    <div class="col-sm-12">
+                        <div class="col-sm-6">
+                            <p>A) Surface to volume ratio is very small</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>B) Surface to volume ratio is large</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>C) Surface to volume ratio is 1 (unity) </p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>D) None of the above</p>
+                        </div>
+                        <button class="text-info btn btn-link" *ngIf="hideansbtn7" (click)="showAns8()">
+                            <h5>View Answer</h5>
+                        </button>
+                        <button class="text-info btn btn-link" *ngIf="!hideansbtn7" (click)="HideAns8()">
+                            <h5>Hide Answer</h5>
+                        </button>
+                        <div *ngIf="!hideansbtn7">
+                            <p class="text-info"><span class="text-dark">Answer:</span> D) None of the above</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="">
+                <h5 class="">Q1) a) Derive an equation for energy of a particle enclosed in 1D rigid box
+                    or in an infinite potential well.</h5>
+                <h4 class="d-flex justify-content-end">{{marks1}}</h4>
+                <a target="_blank" href="" class="text-info">
+                    <h5>View Answer</h5>
+                </a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q2) b) What is wave function Ψ? Write mathematical conditions of well
+                    behaved wave function.</h5>
+                <h4 class="d-flex justify-content-end">{{marks2}}</h4>
+                <a target="_blank" href="" class="text-info">
+                    <h5>View Answer</h5>
+                </a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q2) c) An electron is accelerated by a potential difference of 10 kV. What is
+                    De Broglie wavelength associated with this electron.</h5>
+                <h4 class="d-flex justify-content-end">{{marks3}}</h4>
+                <a target="_blank" href="" class="text-info">
+                    <h5>View Answer</h5>
+                </a>
+            </div>
+            <h4 class="d-flex justify-content-center">OR</h4>
+
+            <div class="">
+                <h5 class="">Q3) a) Starting from De Broglie hypothesis, derive Schrodinger's time
+                    independent wave equation.</h5>
+                <h4 class="d-flex justify-content-end">{{marks1}}</h4>
+                <a target="_blank" href="" class="text-info">
+                    <h5>View Answer</h5>
+                </a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q3) b) State Heisenberg's Uncertainly principle. Explain it using the concept
+                    of narrow and broad wave packet.</h5>
+                <h4 class="d-flex justify-content-end">{{marks2}}</h4>
+                <a target="_blank" href="" class="text-info">
+                    <h5>View Answer</h5>
+                </a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q3) c) Lowest energy of an electron in a potential well is 38 eV. Calculate
+                    the width of well.</h5>
+                <h4 class="d-flex justify-content-end">{{marks3}}</h4>
+                <a target="_blank" href="" class="text-info">
+                    <h5>View Answer</h5>
+                </a>
+            </div>
+            <br>
+            <div class="">
+                <h5 class="">Q4) a) Derive an expression for conductivity of intrinsic, and extrinsic
+                    semiconductors.</h5>
+                <h4 class="d-flex justify-content-end">{{marks1}}</h4>
+                <a target="_blank" href="" class="text-info">
+                    <h5>View Answer</h5>
+                </a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q4) b) What is fermi level in a semiconductor? With the neat labelled diagram,
+                    draw the position of fermi level in N Type & P Type semiconductor
+                    at 0º K</h5>
+                <h4 class="d-flex justify-content-end">{{marks3}}</h4>
+                <a target="_blank" href="" class="text-info">
+                    <h5>View Answer</h5>
+                </a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q4) c)A coper strip 2.0 m wide, 1.0 mm thick is placed in a magnetic field
+                    of 1.5T. If a current of 200 A is set up in the strip, calculate the Hall
+                    voltage that appears across the strip. <br>
+                    Assume RH = 6 × 10–7 m3
+                    /C.
+                </h5>
+                <h4 class="d-flex justify-content-end">{{marks3}}</h4>
+                <a target="_blank" href="" class="text-info">
+                    <h5>View Answer</h5>
+                </a>
+            </div>
+            <h4 class="d-flex justify-content-center">OR</h4>
+            <hr>
+            <div class="">
+                <h5 class="">Q5) a) State Hall effect. Derive an equation of Hall voltage.</h5>
+                <h4 class="d-flex justify-content-end">{{marks1}}</h4>
+                <a target="_blank" href="" class="text-info">
+                    <h5>View Answer</h5>
+                </a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q5) b) Define fermi level in conductors and semiconductors. Draw the
+                    position of fermi level in intrinsic, N - type & P - type semiconductors.</h5>
+                <h4 class="d-flex justify-content-end">{{marks2}}</h4>
+                <a target="_blank" href="" class="text-info">
+                    <h5>View Answer</h5>
+                </a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q5) c) Calculate the number of acceptors to be added to germanium sample
+                    to obtain the resistivity of 10Ωm.</h5>
+                <h4 class="d-flex justify-content-end">{{marks3}}</h4>
+                <a target="_blank" href="" class="text-info">
+                    <h5>View Answer</h5>
+                </a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q6) a) Explain the following terms in superconductivity : <br>
+                    i) Critical Magnetic field. <br>
+                    ii) Meissner effect</h5>
+                <h4 class="d-flex justify-content-end">{{marks1}}</h4>
+                <a target="_blank" href="" class="text-info">
+                    <h5>View Answer</h5>
+                </a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q6) b) Define : <br>
+                    i) Magnetic induction (B) <br>
+                    ii) Magnetic field strength (H) <br>
+                    iii) Magnetization (M) and state the relation between B, M & H.</h5>
+                <h4 class="d-flex justify-content-end">{{marks2}}</h4>
+                <a target="_blank" href="" class="text-info">
+                    <h5>View Answer</h5>
+                </a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q6) c) Explain DC & AC Josephson effect in brief.</h5>
+                <h4 class="d-flex justify-content-end">{{marks3}}</h4>
+                <a target="_blank" href="" class="text-info">
+                    <h5>View Answer</h5>
+                </a>
+            </div>
+            <hr>
+            <h4 class="d-flex justify-content-center">OR</h4>
+            <div class="">
+                <h5 class="">Q7) a) Differentiate between Diamagnetism, paramagnetism and
+                    ferromagnetism. (Any Three points)</h5>
+                <h4 class="d-flex justify-content-end">{{marks1}}</h4>
+                <a target="_blank" href="" class="text-info">
+                    <h5>View Answer</h5>
+                </a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q7) b) What is superconductivity? Distinguish between Type I and Type II
+                    superconductors. (any four points)</h5>
+                <h4 class="d-flex justify-content-end">{{marks2}}</h4>
+                <a target="_blank"
+                    href="https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Spectroscopy/Vibrational_Spectroscopy/Infrared_Spectroscopy/Infrared_Spectroscopy"
+                    class="text-info">
+                    <h5>View Answer</h5>
+                </a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q7) c) The transition temperature for lead is 7.2 K. However at 5K it losses
+                    the superconductivity property if subjected to magnetic field of
+                    3.3 × 104
+                    A/m. Find the maximum value of magnetic field which
+                    will allow the metal to retain its superconductivity at 0K. </h5>
+                <h4 class="d-flex justify-content-end">{{marks3}}</h4>
+                <a target="_blank" href="" class="text-info">
+                    <h5>View Answer</h5>
+                </a>
+            </div>
+
+            <hr>
+            <div class="">
+                <h5 class="">Q8) a) What is echo sounding technique? Using this technique explain non
+                    destructive testing for the measurement of thickness of metal sheet
+                    using ultrasonic waves.</h5>
+                <h4 class="d-flex justify-content-end">{{marks1}}</h4>
+                <a target="_blank" href="" class="text-info">
+                    <h5>View Answer</h5>
+                </a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q8) b) What are nanoparticles? What is nanotechnology? Explain the optical
+                    property of nanoparticle.</h5>
+                <h4 class="d-flex justify-content-end">{{marks2}}</h4>
+                <a target="_blank" href="" class="text-info">
+                    <h5>View Answer</h5>
+                </a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q8) c) Distinguish between Destructive and Non Destructive testing (any
+                    two points)</h5>
+                <h4 class="d-flex justify-content-end">{{marks3}}</h4>
+                <a target="_blank" href="" class="text-info">
+                    <h5>View Answer</h5>
+                </a>
+            </div>
+            <h4 class="d-flex justify-content-center">OR</h4>
+            <hr>
+            <div class="">
+                <h5 class="">Q9) a) What are applications of nanoparticles? Explain any two applications
+                    of nanoparticles in brief.</h5>
+                <h4 class="d-flex justify-content-end">{{marks1}}</h4>
+                <a target="_blank" href="" class="text-info">
+                    <h5>View Answer</h5>
+                </a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q9) b) Explain in brief Acoustic Emission Technique of NDT and its
+                    application.</h5>
+                <h4 class="d-flex justify-content-end">{{marks2}}</h4>
+                <a target="_blank" href="" class="text-info">
+                    <h5>View Answer</h5>
+                </a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q9) c) Explain electrical property of nanoparticles</h5>
+                <h4 class="d-flex justify-content-end">{{marks3}}</h4>
+                <a target="_blank" href="" class="text-info">
+                    <h5>View Answer</h5>
+                </a>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section #paperdec2022>
+        <div class="col-sm-10">
+            <div class="text-center">
+                <h3 class="text-info">FE All Question Paper</h3>
+                <h5>SPPU (2019 Pattern) F.E. (Semester - I & II)</h5>
+                <h4>ENGINEERING CHEMISTRY</h4>
+                <h3>(Dec - 2022 Exam Paper) (107009)</h3>
+            </div>
+            <div>
+                <h5 class="text-info">Q1) Multiple choice questions -</h5>
+                <hr>
+            </div>
+            
+            <div class="">
+                <h5 class="">Q1) a) What is the significance of Schrodinger's equation? Derive schrodinger's
+                    time independent equation.</h5>
+                <h4 class="d-flex justify-content-end">{{marks1}}</h4>
+                <a target="_blank" href="" class="text-info">
+                    <h5>View Answer</h5>
+                </a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q1) b) Derive the expression for de Broglie wavelength for a particle when it
+                    is moving with kinetic energy 'E'.</h5>
+                <h4 class="d-flex justify-content-end">{{marks3}}</h4>
+                <a target="_blank" href="" class="text-info">
+                    <h5>View Answer</h5>
+                </a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q1) c) With a schematic diagram, explain in brief the principle of scanning
+                    tunneling microscope.</h5>
+                <h4 class="d-flex justify-content-end">{{marks3}}</h4>
+                <a target="_blank" href="" class="text-info">
+                    <h5>View Answer</h5>
+                </a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q1 d) If a proton is moving with velocity 2% of the velocity of light, calculate
+                    de Broglie wavelength.</h5>
+                <h4 class="d-flex justify-content-end">{{marks3}}</h4>
+                <a target="_blank" href="" class="text-info">
+                    <h5>View Answer</h5>
+                </a>
+            </div>
+            <h4 class="d-flex justify-content-center">OR</h4>
+            <hr>
+            <div class="">
+                <h5 class="">Q2) a)For a particle trapped in one-dimensional rigid box (infinite potential
+                    well), derive the equation for its energy. Explain in brief why this
+                    energy is quantized.</h5>
+                <h4 class="d-flex justify-content-end">{{marks1}}</h4>
+                <a target="_blank" href="" class="text-info">
+                    <h5>View Answer</h5>
+                </a>
+            </div>
+
+            <div class="">
+                <h5 class="">Q2) b) For an electron accelerated by potential difference V, derive the
+                    expression for its de Broglie wavelength.</h5>
+                <h4 class="d-flex justify-content-end">{{marks3}}</h4>
+                <a target="_blank" href="" class="text-info">
+                    <h5>View Answer</h5>
+                </a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q2) c) What is de Broglie hypothesis of matter waves? Explain in brief why
+                    matter waves are neither electromagnetic nor mechanical waves.</h5>
+                <h4 class="d-flex justify-content-end">{{marks3}}</h4>
+                <a target="_blank" href="" class="text-info">
+                    <h5>View Answer</h5>
+                </a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q2) d) An electron is trapped in an infinite potential well of width 1.75Å.
+                    Calculate energy difference between ground and first energy level.</h5>
+                <h4 class="d-flex justify-content-end">{{marks3}}</h4>
+                <a target="_blank" href="" class="text-info">
+                    <h5>View Answer</h5>
+                </a>
+            </div>
+            <h4 class="d-flex justify-content-center">OR</h4>
+            <br>
+            <div class="">
+                <h5 class="">Q3) a) Explain Hall effect with suitable diagram. Derive the expression for
+                    Hall voltage and Hall coefficient.</h5>
+                <h4 class="d-flex justify-content-end">{{marks1}}</h4>
+                <a target="_blank" href="" class="text-info">
+                    <h5>View Answer</h5>
+                </a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q3) b) Draw a neat and labelled diagram showing I-V characteristics of a
+                    solar cell. Write the equations for fill factor and efficiency of solar cell.</h5>
+                <h4 class="d-flex justify-content-end">{{marks3}}</h4>
+                <a target="_blank" href="" class="text-info">
+                    <h5>View Answer</h5>
+                </a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q3) c) Define Fermi level in metals. Write Fermi-Dirac probability distribution
+                    function and explain the meaning of each term.<br>
+                </h5>
+                <h4 class="d-flex justify-content-end">{{marks3}}</h4>
+                <a target="_blank" href="" class="text-info">
+                    <h5>View Answer</h5>
+                </a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q3) d) Calculate number of donar atoms which must be added to an intrinsic
+                    semiconductor to obtain a resistivity of 12 ohm-cm (Mobility of
+                    electrons, c
+                    = 500 cm2
+                    /V.S.</h5>
+                <h4 class="d-flex justify-content-end">{{marks4}}</h4>
+                <a target="_blank" href="" class="text-info">
+                    <h5>View Answer</h5>
+                </a>
+            </div>
+            <h4 class="d-flex justify-content-center">OR</h4>
+            <hr>
+            <div class="">
+                <h5 class="">Q4) a) Explain classification of solids into conductors, semiconductors and
+                    insulators on the basis of band theory.</h5>
+                <h4 class="d-flex justify-content-end">{{marks1}}</h4>
+                <a target="_blank" href="" class="text-info">
+                    <h5>View Answer</h5>
+                </a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q4) b) Define Fermi level in semiconductor. Draw neat & labelled diagram
+                    showing position of Fermi level in instrinsic, N-type and P-type
+                    semiconductors.</h5>
+                <h4 class="d-flex justify-content-end">{{marks3}}</h4>
+                <a target="_blank" href="" class="text-info">
+                    <h5>View Answer</h5>
+                </a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q4) c) State the advantages (any two) and applications (any two) of solar cell.</h5>
+                <h4 class="d-flex justify-content-end">{{marks3}}</h4>
+                <a target="_blank" href="" class="text-info">
+                    <h5>View Answer</h5>
+                </a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q4) d) An N type semiconductor has a thickness 0.12 mm and a current of
+                    1mA is flowing along its length. When a magnetic field of 1.5 T is
+                    applied along its thickness, calculate voltage developed across its width.
+                    [Hall coefficient, RH = 3.68 × 10–4 m3
+                    /C]</h5>
+                <h4 class="d-flex justify-content-end">{{marks4}}</h4>
+                <a target="_blank" href="" class="text-info">
+                    <h5>View Answer</h5>
+                </a>
+            </div>
+            <h4 class="d-flex justify-content-center">OR</h4>
+
+            <hr>
+            <div class="">
+                <h5 class="">Q5) a) On the basis of orbital and spin motion of electron and spin motion of
+                    nucleus, explain origin of magnetism.</h5>
+
+                <h4 class="d-flex justify-content-end">{{marks1}}</h4>
+                <a target="_blank" href="" class="text-info">
+                    <h5>View Answer</h5>
+                </a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q5) b) Define (i) magnetic field strength (ii) magnetic induction (iii) magnetic
+                    permeability. Write relation between them</h5>
+                <h4 class="d-flex justify-content-end">{{marks3}}</h4>
+                <a target="_blank" href="" class="text-info">
+                    <h5>View Answer</h5>
+                </a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q5) c) What is super conductivity? Differentiate between type I & type II
+                    super conductors (any three).</h5>
+                <h4 class="d-flex justify-content-end">{{marks3}}</h4>
+                <a target="_blank"
+                    href="https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Spectroscopy/Vibrational_Spectroscopy/Infrared_Spectroscopy/Infrared_Spectroscopy"
+                    class="text-info">
+                    <h5>View Answer</h5>
+                </a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q5) d) The transition temperature Te
+                    for lead is 7.26 K. The critical magnetic
+                    field at 0K i.e. Hc
+                    (0) is 8 × 105
+                    A/m. It is to be used as a super conductor
+                    subjected to a magnetic field Hc
+                    (T) of 4 × 104
+                    A/m. At what maximum
+                    temperature T, it can be operated without losing its superconductivity.<br>
+                </h5>
+                <h4 class="d-flex justify-content-end">{{marks3}}</h4>
+                <a target="_blank" href="" class="text-info">
+                    <h5>View Answer</h5>
+                </a>
+            </div>
+            <h4 class="d-flex justify-content-center">OR</h4>
+
+            <hr>
+            <div class="">
+                <h5 class="">Q6) a) Explain Meissner effect in brief. What is the cause of Meissner effect?
+                    Show that super conductors exhibit perfect diamagnetism.</h5>
+                <h4 class="d-flex justify-content-end">{{marks1}}</h4>
+                <a target="_blank" href="" class="text-info">
+                    <h5>View Answer</h5>
+                </a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q6) b) What is magnetic permeability () & magnetic susceptibility (). Obtain
+                    relation between them.</h5>
+                <h4 class="d-flex justify-content-end">{{marks3}}</h4>
+                <a target="_blank" href="" class="text-info">
+                    <h5>View Answer</h5>
+                </a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q6) c) Differentiate between diamagnetism and ferromagnetism (Any two
+                    points)</h5>
+                <h4 class="d-flex justify-content-end">{{marks3}}</h4>
+                <a target="_blank" href="" class="text-info">
+                    <h5>View Answer</h5>
+                </a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q6) d) For Niobium, if critical temperature Tc
+                    is 11.3 K and critical magnetic
+                    field at 0K is. Hc
+                    (0) is 2 × 105
+                    A/m, Calculate critical magnetic field
+                    Hc
+                    (T) at T = 4.2K.</h5>
+                <h4 class="d-flex justify-content-end">{{marks3}}</h4>
+                <a target="_blank" href="" class="text-info">
+                    <h5>View Answer</h5>
+                </a>
+            </div>
+            <h4 class="d-flex justify-content-center">OR</h4>
+            <hr>
+            <div class="">
+                <h5 class="">Q7) a) Explain electrical and mechanical properties of nanoparticles.</h5>
+                <h4 class="d-flex justify-content-end">{{marks1}}</h4>
+                <a target="_blank" href="" class="text-info">
+                    <h5>View Answer</h5>
+                </a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q7) b) Write applications of nanotechnology in the field of electronics. Explain
+                    any one application in brief.</h5>
+                <h4 class="d-flex justify-content-end">{{marks3}}</h4>
+                <a target="_blank" href="" class="text-info">
+                    <h5>View Answer</h5>
+                </a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q7) c) What are ultrasonic waves? An ultrasonic wave of velocity 6400 m/s
+                    is sent through the top of an aluminium block of thickness 4.5 cm. It is
+                    reflected back from the internal flaw. After what time echo would be
+                    obtained.</h5>
+                <h4 class="d-flex justify-content-end">{{marks3}}</h4>
+                <a target="_blank" href="" class="text-info">
+                    <h5>View Answer</h5>
+                </a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q7) d) Explain in brief, the principle of radiography testing technique.</h5>
+                <h4 class="d-flex justify-content-end">{{marks4}}</h4>
+                <a target="_blank" href="" class="text-info">
+                    <h5>View Answer</h5>
+                </a>
+            </div>
+            <h4 class="d-flex justify-content-center">OR</h4>
+            <hr>
+            <div class="">
+                <h5 class="">Q8) a) What is Non-Destructive Testing (NDT)? State objectives of NDT (any
+                    two). State advantages of NDT over DT (any two).</h5>
+                <h4 class="d-flex justify-content-end">{{marks1}}</h4>
+                <a target="_blank" href="" class="text-info">
+                    <h5>View Answer</h5>
+                </a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q8) b) Write applications of nanotechnology in the field of automobiles.
+                    Explain any one application in brief.</h5>
+                <h4 class="d-flex justify-content-end">{{marks3}}</h4>
+                <a target="_blank" href="" class="text-info">
+                    <h5>View Answer</h5>
+                </a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q8) c) What are ultrasonic waves? An ultrasonic wave is sent through a block
+                    of steel and its echo is received after 1.5 s. if velocity of ultrasonic
+                    waves is 5890 m/s, determine location of the flaw.</h5>
+                <h4 class="d-flex justify-content-end">{{marks3}}</h4>
+                <a target="_blank" href="" class="text-info">
+                    <h5>View Answer</h5>
+                </a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q8) d) Explain optical properties of nanoparticles.</h5>
+                <h4 class="d-flex justify-content-end">{{marks4}}</h4>
+                <a target="_blank" href="" class="text-info">
+                    <h5>View Answer</h5>
+                </a>
+            </div>
+        </div>
+    </section>
+</div>

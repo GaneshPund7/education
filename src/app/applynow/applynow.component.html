@@ -1,0 +1,859 @@
+
+
+<div class="container-fluid">
+    <nav class="navbar navbar-expand bg-body-tertiary bg-info" style="height: 51px;">
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav me-auto mb-2">
+                <li class="nav-item hidenavitem">
+                    <button (click)="scroll(paper2022)" class="btn btn-info text-white me-5 ">2022 may Exam Paper</button>
+                </li>
+                <li class="nav-item hidenavitem">
+                    <button (click)="scroll(paperdec2022)" class="btn btn-info text-white me-5 ">2022 Dec Exam Paper</button>
+                </li>
+                
+            </ul>
+        </div>
+    </nav>
+    <section #paper2022>
+        <div class="col-sm-10">
+            <div class="text-center">
+                <h3 class="text-info">FE All Question Paper</h3>
+                <h5>SPPU (2019 Pattern) F.E. (Semester - I)</h5>
+                <h4>ENGINEERING PHYSICS</h4>
+                <h3> (May-2022 Exam Paper) (107009)</h3>
+                <button class="btn btn-link" (click)="scroll(paperdec2022)">Click here to get Dec 2022 exam paper</button>
+
+            </div>
+            <div>
+                <h5 class="text-info">Q1) Write the correct option with answer for the following :</h5>
+                <hr>
+                <div>
+                    <h5>i) The wavelength λ associated with a particle of mass m moving with
+                        velocity v is given by</h5>
+                    <div class="col-sm-12">
+                        <div class="col-sm-6">
+                            <p> <img src="./assets/phyeqmcq1a.png" alt=""></p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p><img src="./assets/Screenshot (261).png" alt=""></p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p><img src="./assets/Screenshot (261).jpeg" alt=""></p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p><img src="./assets/Screenshot (261).jpg" alt=""></p>
+                        </div>
+                       
+                        <div>
+                            <button  class="text-info btn btn-link"*ngIf="hideansbtn" (click)="showAns1()"><h5>View Answer</h5></button>
+                            <button  class="text-info btn btn-link"*ngIf="!hideansbtn" (click)="HideAns1()"><h5>Hide Answer</h5></button>
+                            <div *ngIf="!hideansbtn">
+                                <p class="text-info"><span class="text-dark">Answer:</span> A) blue, sutures</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div>
+                    <h5>ii)The equation of motion of matter wave was derived by.</h5>
+                    <div class="col-sm-12">
+                        <div class="col-sm-6">
+                            <p>A)Heisenberg</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>B) Bohr</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>C)  De Broglie</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>D)Schrodinger</p>
+                        </div>
+                        <button  class="text-info btn btn-link"*ngIf="hideansbtn1" (click)="showAns2()"><h5>View Answer</h5></button>
+                        <button  class="text-info btn btn-link"*ngIf="!hideansbtn1" (click)="HideAns2()"><h5>Hide Answer</h5></button>
+                        <div *ngIf="!hideansbtn1">
+                            <p class="text-info"><span class="text-dark">Answer:</span> A) sp3</p>
+                        </div>
+                        <div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div>
+                    <h5>iii) In metals the band gap energy / forbidden energy gap is</h5>
+                    <div class="col-sm-12">
+                        <div class="col-sm-6">
+                            <p>A) 0 eV</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>B)  0.7 eV</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>C) 1.12 eV</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>D) > 5 eV</p>
+                        </div>
+                        <button  class="text-info btn btn-link"*ngIf="hideansbtn2" (click)="showAns3()"><h5>View Answer</h5></button>
+                        <button  class="text-info btn btn-link"*ngIf="!hideansbtn2" (click)="HideAns3()"><h5>Hide Answer</h5></button>
+                        <div *ngIf="!hideansbtn2">
+                            <p class="text-info"><span class="text-dark">Answer:</span> B) burns clean</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div>
+                    <h5>A solar cell work on the principle of</h5>
+                    <div class="col-sm-12">
+                        <div class="col-sm-6">
+                            <p>A) Photoelectric effect</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>B) Photoluminescence effect</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>C) Photovoltaic effect</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>D) Photocombustion effect</p>
+                        </div>
+                        <button  class="text-info btn btn-link"*ngIf="hideansbtn3" (click)="showAns4()"><h5>View Answer</h5></button>
+                        <button  class="text-info btn btn-link"*ngIf="!hideansbtn3" (click)="HideAns4()"><h5>Hide Answer</h5></button>
+                        <div *ngIf="!hideansbtn3">
+                            <p class="text-info"><span class="text-dark">Answer:</span> B) Joules</p>
+                        </div>
+                         
+                    </div>
+                </div>
+                <hr>
+                <div>
+                    <h5>v) The relative permeability can be expressed by</h5>
+                    <div class="col-sm-12">
+                        <div class="col-sm-6">
+                            <p>A) ) μr
+                                = 1 + μ0</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>B) μr
+                                = 1 + x</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>C) 0 r m x
+                                m =</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>D) μr
+                                = μ0
+                                + μa</p>
+                        </div>
+                        <button  class="text-info btn btn-link"*ngIf="hideansbtn4" (click)="showAns5()"><h5>View Answer</h5></button>
+                        <button  class="text-info btn btn-link"*ngIf="!hideansbtn4" (click)="HideAns5()"><h5>Hide Answer</h5></button>
+                        <div *ngIf="!hideansbtn4">
+                            <p class="text-info"><span class="text-dark">Answer:</span> D) non-linear, 4</p>
+
+                        </div>
+                       
+                    </div>
+                </div>
+                <hr>
+                <div>
+                    <h5>vi) Superconductivity is the phenomenon in which ________ of materials
+                        suddenly disappears below critical temperature..</h5>
+                    <div class="col-sm-12">
+                        <div class="col-sm-6">
+                            <p>Capacitance</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>B) Conductivity</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>C) Inductance</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>D) Resistance</p>
+                        </div>
+                        <button  class="text-info btn btn-link"*ngIf="hideansbtn5" (click)="showAns6()"><h5>View Answer</h5></button>
+                            <button  class="text-info btn btn-link"*ngIf="!hideansbtn5" (click)="HideAns6()"><h5>Hide Answer</h5></button>
+                            <div *ngIf="!hideansbtn5">
+                                <p class="text-info"><span class="text-dark">Answer:</span>D) Ultra violet</p>
+                            </div>
+    
+                    </div>
+                </div>
+                <hr>
+                <div>
+                    <h5>vii) Ultrasonic waves have frequency.</h5>
+                    <div class="col-sm-12">
+                        <div class="col-sm-6">
+                            <p>A) Less than 20 H</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>B) 20 Hz
+                                to 20 kH</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>C) Sn on Fe</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>D) Fe on Zn</p>
+                        </div>
+                        <div>
+                            <button  class="text-info btn btn-link"*ngIf="hideansbtn6" (click)="showAns7()"><h5>View Answer</h5></button>
+                            <button  class="text-info btn btn-link"*ngIf="!hideansbtn6" (click)="HideAns7()"><h5>Hide Answer</h5></button>
+                            <div *ngIf="!hideansbtn6">
+                                <p class="text-info"><span class="text-dark">Answer:</span> B) Fe on Zn</p>
+                            </div>
+                             
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div>
+                    <h5>viii) Rate of corrosion _______ with increase in purity of the metal.</h5>
+                    <div class="col-sm-12">
+                        <div class="col-sm-6">
+                            <p>A) decreases</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>B) increases</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>C) remains same</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>D) initially increases and then remains constant</p>
+                        </div>
+                        <button  class="text-info btn btn-link"*ngIf="hideansbtn7" (click)="showAns8()"><h5>View Answer</h5></button>
+                        <button  class="text-info btn btn-link"*ngIf="!hideansbtn7" (click)="HideAns8()"><h5>Hide Answer</h5></button>
+                        <div *ngIf="!hideansbtn7">
+                            <p class="text-info"><span class="text-dark">Answer:</span> B) burns clean</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="">
+                <h5 class="">{{Q2a}}</h5>
+                <h4 class="d-flex justify-content-end">{{marks1}}</h4>
+                <a target="_blank" href=""
+                class="text-info"><h5>View Answer</h5></a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">{{Q2b}}</h5>
+                <h4 class="d-flex justify-content-end">{{marks2}}</h4>
+                <a target="_blank" href=""
+                class="text-info"><h5>View Answer</h5></a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">{{Q2c}}</h5>
+                <h4 class="d-flex justify-content-end">{{marks3}}</h4>
+                <a target="_blank" href=""
+                class="text-info"><h5>View Answer</h5></a>
+            </div>
+            <h4 class="d-flex justify-content-center">OR</h4>
+
+            <div class="">
+                <h5 class="">Q3) a) What are carbon nano-tubes? Discuss the different types of carbon
+                    nanotubes with respect to their structure.</h5>
+                <h4 class="d-flex justify-content-end">{{marks1}}</h4>
+                <a target="_blank" href=""
+                class="text-info"><h5>View Answer</h5></a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q3) b) Explain the structure of graphene with the help of diagram and mention
+                    its two properties and two applications.</h5>
+                <h4 class="d-flex justify-content-end">{{marks2}}</h4>
+                <a target="_blank" href=""
+                class="text-info"><h5>View Answer</h5></a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q3) c) What are conducting polymers? State the structural requirements for
+                    a polymer to be conducting and give any three applications of
+                    conducting polymers.</h5>
+                <h4 class="d-flex justify-content-end">{{marks3}}</h4>
+                <a target="_blank" href=""
+                class="text-info"><h5>View Answer</h5></a>
+            </div>
+            <br>
+            <div class="">
+                <h5 class="">Q4) a) What is proximate analysis of coal? Give the procedure and formula
+                    for determination of each constituent.</h5>
+                <h4 class="d-flex justify-content-end">{{marks1}}</h4>
+                <a target="_blank" href=""
+                class="text-info"><h5>View Answer</h5></a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q4) b) Explain the production of hydrogen by steam reforming of coke and
+                    methane with reaction conditions.</h5>
+                <h4 class="d-flex justify-content-end">{{marks3}}</h4>
+                <a target="_blank" href=""
+                class="text-info"><h5>View Answer</h5></a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q4) c) The following data was obtained in a Boy's gas. <br>
+                    Calorimeter experiment - <br>
+                    Volume of gas burnt at STP = 0.1m3 <br>
+                    Mass of cooling water = 30 kg <br>
+                    Rise in temperature of cooling water = 8.1°C <br>
+                    Mass of steam condensed = 0.08 kg <br>
+                    Calculate GCV and NCV of the fuel</h5>
+                <h4 class="d-flex justify-content-end">{{marks3}}</h4>
+                <a target="_blank" href=""
+                class="text-info"><h5>View Answer</h5></a>
+            </div>
+            <h4 class="d-flex justify-content-center">OR</h4>
+            <hr>
+            <div class="">
+                <h5 class="">Q5) a) Give the principle and explain the process of fractional distillation of
+                    crude oil with labelled diagram. Give the composition and boiling
+                    range of any one fraction obtained during refining.</h5>
+                <h4 class="d-flex justify-content-end">{{marks1}}</h4>
+                <a target="_blank" href=""
+                class="text-info"><h5>View Answer</h5></a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q5) b) Give the preparation reaction of biodiesel. State four advantages and
+                    two limitations of biodiesel.</h5>
+                <h4 class="d-flex justify-content-end">{{marks2}}</h4>
+                <a target="_blank" href=""
+                class="text-info"><h5>View Answer</h5></a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q5) c) 1.0g of coal sample on complete combustion increased the weight of
+                    U-tube containing CaCl2
+                    by 0.5g and tube containing KOH by 2.4g.
+                    Calculate % of C and H in the given coal sample.</h5>
+                <h4 class="d-flex justify-content-end">{{marks3}}</h4>
+                <a target="_blank" href=""
+                class="text-info"><h5>View Answer</h5></a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q6) a) Draw block diagram of IR spectrophotometer. Explain its any four
+                    components and give their function.</h5>
+                <h4 class="d-flex justify-content-end">{{marks1}}</h4>
+                <a target="_blank" href=""
+                class="text-info"><h5>View Answer</h5></a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q6) b) Explain the possible transitions which occur on absorption of UVVis radiations by an
+                    organic molecule.</h5>
+                <h4 class="d-flex justify-content-end">{{marks2}}</h4>
+                <a target="_blank" href=""
+                class="text-info"><h5>View Answer</h5></a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q6) c) Explain any four applications of IR spectroscopy.</h5>
+                <h4 class="d-flex justify-content-end">{{marks3}}</h4>
+                <a target="_blank" href=""
+                class="text-info"><h5>View Answer</h5></a>
+            </div>
+            <hr>
+            <h4 class="d-flex justify-content-center">OR</h4>
+            <div class="">
+                <h5 class="">Q7) a) Draw block diagram of single beam UV-vis spectrophotometer.
+                    Explain its four components and give their function.</h5>
+                <h4 class="d-flex justify-content-end">{{marks1}}</h4>
+                <a target="_blank" href=""
+                class="text-info"><h5>View Answer</h5></a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q7) b) Give the principle of IR spectroscopy. Explain fundamental modes
+                    of bending vibrations.</h5>
+                <h4 class="d-flex justify-content-end">{{marks2}}</h4>
+                <a target="_blank" href="https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Spectroscopy/Vibrational_Spectroscopy/Infrared_Spectroscopy/Infrared_Spectroscopy"
+                class="text-info"><h5>View Answer</h5></a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q7) c) Define the following terms -. <br>
+                    i) Chromophore <br>
+                    ii) Hypsochromic shift <br>
+                    iii) Auxochrome <br>
+                    iv) Hypochromic shift</h5>
+                <h4 class="d-flex justify-content-end">{{marks3}}</h4> 
+                <a target="_blank" href=""
+                class="text-info"><h5>View Answer</h5></a>  
+            </div>
+            
+                <hr>
+            <div class="">
+                <h5 class="">Q8) a) Explain hydrogen evolution and oxygen absorption mechanism of
+                    wet corrosion.</h5>
+                <h4 class="d-flex justify-content-end">{{marks1}}</h4>
+                <a target="_blank" href=""
+                class="text-info"><h5>View Answer</h5></a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q8) b) What is electroplating? Explain the process with diagram and reactions.
+                    Give applications of electroplating.</h5>
+                <h4 class="d-flex justify-content-end">{{marks2}}</h4>
+                <a target="_blank" href=""
+                class="text-info"><h5>View Answer</h5></a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q8) c) What are anodic and cathodic coatings? Which are better and why?</h5>
+                <h4 class="d-flex justify-content-end">{{marks3}}</h4>
+                <a target="_blank" href=""
+                class="text-info"><h5>View Answer</h5></a>
+            </div>
+            <h4 class="d-flex justify-content-center">OR</h4>
+            <hr>
+            <div class="">
+                <h5 class="">Q9) a) State Pilling Bedworth ratio and give its significance. Give the different
+                    types of oxide films with suitable example formed during the oxidation
+                    corrosion of metals.</h5>
+                <h4 class="d-flex justify-content-end">{{marks1}}</h4>
+                <a target="_blank" href=""
+                class="text-info"><h5>View Answer</h5></a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q9) b)  Explain any five factors affecting the rate of corrosion.</h5>
+                <h4 class="d-flex justify-content-end">{{marks2}}</h4>
+                <a target="_blank" href=""
+                class="text-info"><h5>View Answer</h5></a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q9) c) What are anodic and cathodic coatings? Which are better and why?</h5>
+                <h4 class="d-flex justify-content-end">{{marks3}}</h4>
+                <a target="_blank" href=""
+                class="text-info"><h5>View Answer</h5></a>
+            </div>
+        </div>
+    </section>
+    <section #paperdec2022>
+        <div class="col-sm-10">
+            <div class="text-center">
+                <h3 class="text-info">FE All Question Paper</h3>
+                <h5>SPPU (2019 Pattern) F.E. (Semester - I & II)</h5>
+                <h4>ENGINEERING CHEMISTRY</h4>
+                <h3>(Dec - 2022 Exam Paper) (107009)</h3>
+            </div>
+            <div>
+                <h5 class="text-info">Q1) Multiple choice questions -</h5>
+                <hr>
+                <div>
+                    <h5>i)Applications of quantum dots are</h5>
+                    <div class="col-sm-12">
+                        <div class="col-sm-6">
+                            <p>A) Light emitting diode</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>B) Photo detectors</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>C) Biological analysis</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>D) All of these</p>
+                        </div>
+                        <div>
+                            <button  class="text-info btn btn-link"*ngIf="hideansbtn" (click)="showAns1()"><h5>View Answer</h5></button>
+                            <button  class="text-info btn btn-link"*ngIf="!hideansbtn" (click)="HideAns1()"><h5>Hide Answer</h5></button>
+                            <div *ngIf="!hideansbtn">
+                                <p class="text-info"><span class="text-dark">Answer:</span> A) blue, sutures</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div>
+                    <h5>ii) CDS and DVDS can be made by using.</h5>
+                    <div class="col-sm-12">
+                        <div class="col-sm-6">
+                            <p>A)Polycarbonate</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>B) Polyphenylene vinylene</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>C) Kevlar</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>D)Polyisoprene</p>
+                        </div>
+                        <button  class="text-info btn btn-link"*ngIf="hideansbtn1" (click)="showAns2()"><h5>View Answer</h5></button>
+                        <button  class="text-info btn btn-link"*ngIf="!hideansbtn1" (click)="HideAns2()"><h5>Hide Answer</h5></button>
+                        <div *ngIf="!hideansbtn1">
+                            <p class="text-info"><span class="text-dark">Answer:</span> A) sp3</p>
+                        </div>
+                        <div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div>
+                    <h5>iii) NCV = GCV – _____ × H × 587 Kcal/kg.</h5>
+                    <div class="col-sm-12">
+                        <div class="col-sm-6">
+                            <p>A) 0.9</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>B) 9</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>C) 0.09</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>D) 90</p>
+                        </div>
+                        <button  class="text-info btn btn-link"*ngIf="hideansbtn2" (click)="showAns3()"><h5>View Answer</h5></button>
+                        <button  class="text-info btn btn-link"*ngIf="!hideansbtn2" (click)="HideAns3()"><h5>Hide Answer</h5></button>
+                        <div *ngIf="!hideansbtn2">
+                            <p class="text-info"><span class="text-dark">Answer:</span> D)90</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div>
+                    <h5>Kjeldhal’s method is used for determination of</h5>
+                    <div class="col-sm-12">
+                        <div class="col-sm-6">
+                            <p>A) % H</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>B) % N</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>C) % S</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>D) % C</p>
+                        </div>
+                        <button  class="text-info btn btn-link"*ngIf="hideansbtn3" (click)="showAns4()"><h5>View Answer</h5></button>
+                        <button  class="text-info btn btn-link"*ngIf="!hideansbtn3" (click)="HideAns4()"><h5>Hide Answer</h5></button>
+                        <div *ngIf="!hideansbtn3">
+                            <p class="text-info"><span class="text-dark">Answer:</span> B) % N</p>
+                        </div>
+                         
+                    </div>
+                </div>
+                <hr>
+                <div>
+                    <h5>v) Electromagnetic radiations consist of _____ oscillating perpendicular to
+                        each other.</h5>
+                    <div class="col-sm-12">
+                        <div class="col-sm-6">
+                            <p>A)Electric and magnetic field</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>B) Electric and magnetic radiation</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>C) Charged particle</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>D) All of these</p>
+                        </div>
+                        <button  class="text-info btn btn-link"*ngIf="hideansbtn4" (click)="showAns5()"><h5>View Answer</h5></button>
+                        <button  class="text-info btn btn-link"*ngIf="!hideansbtn4" (click)="HideAns5()"><h5>Hide Answer</h5></button>
+                        <div *ngIf="!hideansbtn4">
+                            <p class="text-info"><span class="text-dark">Answer:</span> D) All of these</p>
+
+                        </div>
+                       
+                    </div>
+                </div>
+                <hr>
+                <div>
+                    <h5>vi)Infrared spectroscopy is also called as _____.</h5>
+                    <div class="col-sm-12">
+                        <div class="col-sm-6">
+                            <p>A) Rotational spectroscopy</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>B) Electronic excitation spectroscopy</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>C) Vibrational spectroscopy</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>D) Nuclear excitation spectroscopy </p>
+                        </div>
+                        <button  class="text-info btn btn-link"*ngIf="hideansbtn5" (click)="showAns6()"><h5>View Answer</h5></button>
+                            <button  class="text-info btn btn-link"*ngIf="!hideansbtn5" (click)="HideAns6()"><h5>Hide Answer</h5></button>
+                            <div *ngIf="!hideansbtn5">
+                                <p class="text-info"><span class="text-dark">Answer:</span>D) Ultra violet</p>
+                            </div>
+    
+                    </div>
+                </div>
+                <hr>
+                <div>
+                    <h5>vii) Which of the following film is protectitve?</h5>
+                    <div class="col-sm-12">
+                        <div class="col-sm-6">
+                            <p>A)Porous</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>B) Non porous</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>C) Volatile</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>D) None of these</p>
+                        </div>
+                        <div>
+                            <button  class="text-info btn btn-link"*ngIf="hideansbtn6" (click)="showAns7()"><h5>View Answer</h5></button>
+                            <button  class="text-info btn btn-link"*ngIf="!hideansbtn6" (click)="HideAns7()"><h5>Hide Answer</h5></button>
+                            <div *ngIf="!hideansbtn6">
+                                <p class="text-info"><span class="text-dark">Answer:</span> B) Fe on Zn</p>
+                            </div>
+                             
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div>
+                    <h5>viii) Tinning is the example of</h5>
+                    <div class="col-sm-12">
+                        <div class="col-sm-6">
+                            <p>A) Anodic coating</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>B) Cathodic coating</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>C) Neither anode nor cathode</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>D) Both anode and cathode</p>
+                        </div>
+                        <button  class="text-info btn btn-link"*ngIf="hideansbtn7" (click)="showAns8()"><h5>View Answer</h5></button>
+                        <button  class="text-info btn btn-link"*ngIf="!hideansbtn7" (click)="HideAns8()"><h5>Hide Answer</h5></button>
+                        <div *ngIf="!hideansbtn7">
+                            <p class="text-info"><span class="text-dark">Answer:</span> B) burns clean</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="">
+                <h5 class="">Q2) a) Define conducting polymers. What is the structural requirement for a
+                    polymer to show conductive property? Give doping reactions two
+                    properties and two applications of conducting polymer.</h5>
+                <h4 class="d-flex justify-content-end">{{marks1}}</h4>
+                <a target="_blank" href=""
+                class="text-info"><h5>View Answer</h5></a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q2 b) Explain the structure of graphene with the help of diagram and mention
+                    its two properties and two applications.</h5>
+                <h4 class="d-flex justify-content-end">{{marks2}}</h4>
+                <a target="_blank" href=""
+                class="text-info"><h5>View Answer</h5></a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q2) c) What are biodegradable polymers? Explain the three factors responsible
+                    for biodegradation.</h5>
+                <h4 class="d-flex justify-content-end">{{marks3}}</h4>
+                <a target="_blank" href=""
+                class="text-info"><h5>View Answer</h5></a>
+            </div>
+            <h4 class="d-flex justify-content-center">OR</h4>
+
+            <div class="">
+                <h5 class="">Q3) a) Define Polymer composites. Discuss the classification on the basis of
+                    reinforcement with any two applications.</h5>
+                <h4 class="d-flex justify-content-end">{{marks1}}</h4>
+                <a target="_blank" href=""
+                class="text-info"><h5>View Answer</h5></a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q3) b) Discuss the different types of carbon nanotubes with respect to their
+                    structure. Give any two application of carbon nanotubes.</h5>
+                <h4 class="d-flex justify-content-end">{{marks2}}</h4>
+                <a target="_blank" href=""
+                class="text-info"><h5>View Answer</h5></a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q3) c) What are the nanomaterials? Classify any two on the basis of dimensions.
+                    Give any two applications.</h5>
+                <h4 class="d-flex justify-content-end">{{marks3}}</h4>
+                <a target="_blank" href=""
+                class="text-info"><h5>View Answer</h5></a>
+            </div>
+            <br>
+            <div class="">
+                <h5 class="">Q4) a) Explain in brief the process with diagram for distillation of crude petroleum.
+                    Give composition, boiling range and uses of two fractions obtained.</h5>
+                <h4 class="d-flex justify-content-end">{{marks1}}</h4>
+                <a target="_blank" href=""
+                class="text-info"><h5>View Answer</h5></a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q4) b) What is Power alcohol? Give its preparation with reactions and any two
+                    advantages</h5>
+                <h4 class="d-flex justify-content-end">{{marks3}}</h4>
+                <a target="_blank" href=""
+                class="text-info"><h5>View Answer</h5></a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q4) c) Calculate the NCV of fuel containing 6% hydrogen with the following
+                    data of Bomb calorimeter experiment.<br>
+                    i) Mass of fuel = 0.850 gm <br>
+                    ii) Mass of water in calorimeter = 2200 gm<br>
+                    iii) Water equivalent of calorimeter set = 750 gm <br>
+                    iv) Rise in temperature = 2.82ºC <br>
+                    </h5>
+                <h4 class="d-flex justify-content-end">{{marks3}}</h4>
+                <a target="_blank" href=""
+                class="text-info"><h5>View Answer</h5></a>
+            </div>
+            <h4 class="d-flex justify-content-center">OR</h4>
+            <hr>
+            <div class="">
+                <h5 class="">Q5) a) What is proximate analysis? Mention the principle involved in the analysis
+                    of each of these constituents. Give the significance of any one constituent.</h5>
+                <h4 class="d-flex justify-content-end">{{marks1}}</h4>
+                <a target="_blank" href=""
+                class="text-info"><h5>View Answer</h5></a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q5) b) Explain the production of hydrogen by steam reforming of methane and
+                    coke with reaction conditions.</h5>
+                <h4 class="d-flex justify-content-end">{{marks2}}</h4>
+                <a target="_blank" href=""
+                class="text-info"><h5>View Answer</h5></a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q5) c) 0.30 gm of coal sample on burning in combustion chamber in current of
+                    pure O2
+                     was found to increase weight of CaCl2
+                     U tube by 0.11 gm and
+                    KOH U tube by 0.62 gm. Find carbon hydrogen % in the coal sample.</h5>
+                <h4 class="d-flex justify-content-end">{{marks3}}</h4>
+                <a target="_blank" href=""
+                class="text-info"><h5>View Answer</h5></a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q6) a) Draw the block diagram of single beam UV visible spectrophotometer.
+                    Explain its four components and give their function.</h5>
+                <h4 class="d-flex justify-content-end">{{marks1}}</h4>
+                <a target="_blank" href=""
+                class="text-info"><h5>View Answer</h5></a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q6) b) Give the principle of IR spectroscopy. Explain the fundamental modes
+                    of streching vibrations.</h5>
+                <h4 class="d-flex justify-content-end">{{marks2}}</h4>
+                <a target="_blank" href=""
+                class="text-info"><h5>View Answer</h5></a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q6) c) Define the following terms : <br>
+                    i) Auxochrome <br>
+                    ii) Chromophore <br>
+                    iii) Bathochromic shift <br>
+                    iv) Hyperchromic shift</h5>
+                <h4 class="d-flex justify-content-end">{{marks3}}</h4>
+                <a target="_blank" href=""
+                class="text-info"><h5>View Answer</h5></a>
+            </div>
+            <hr>
+            <h4 class="d-flex justify-content-center">OR</h4>
+            <div class="">
+                <h5 class="">Q7) a) Explain different types of electronic transitions that occurs in an organic
+                    molecule after absorbing UV radiations.</h5>
+                <h4 class="d-flex justify-content-end">{{marks1}}</h4>
+                <a target="_blank" href=""
+                class="text-info"><h5>View Answer</h5></a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q7) b) What are the conditions of absorption of IR radiations by the molecule?
+                    Explain any two applications of IR spectroscopy</h5>
+                <h4 class="d-flex justify-content-end">{{marks2}}</h4>
+                <a target="_blank" href="https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Spectroscopy/Vibrational_Spectroscopy/Infrared_Spectroscopy/Infrared_Spectroscopy"
+                class="text-info"><h5>View Answer</h5></a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q7) c) Calculate the fundamental modes of vibrations in the following molecules. <br>
+                    i) H2O <br>
+                    ii) NH3 <br>
+                    iii) CH4 <br>
+                    iv) NO</h5>
+                <h4 class="d-flex justify-content-end">{{marks3}}</h4> 
+                <a target="_blank" href=""
+                class="text-info"><h5>View Answer</h5></a>  
+            </div>
+            
+                <hr>
+            <div class="">
+                <h5 class="">Q8) a) Explain the mechanism of dry corrosion. Give the nature of oxide film
+                    and reaction in oxidation corrosion of Mg and Cr.</h5>
+                <h4 class="d-flex justify-content-end">{{marks1}}</h4>
+                <a target="_blank" href=""
+                class="text-info"><h5>View Answer</h5></a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q8) b)  What is the principle of Cathodic protection? Explain sacrificial anodic
+                    protection of metal.</h5>
+                <h4 class="d-flex justify-content-end">{{marks2}}</h4>
+                <a target="_blank" href=""
+                class="text-info"><h5>View Answer</h5></a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q8) c) Explain any four factors affecting the rate of corrosion related to metal.</h5>
+                <h4 class="d-flex justify-content-end">{{marks3}}</h4>
+                <a target="_blank" href=""
+                class="text-info"><h5>View Answer</h5></a>
+            </div>
+            <h4 class="d-flex justify-content-center">OR</h4>
+            <hr>
+            <div class="">
+                <h5 class="">Q9) a) Define electroplating. Explain the process with diagram and reactions.
+                    Give any two applications of electroplating</h5>
+                <h4 class="d-flex justify-content-end">{{marks1}}</h4>
+                <a target="_blank" href=""
+                class="text-info"><h5>View Answer</h5></a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q9) b)  Explain the mechanism of wet corrosion by Hydrogen evolution with
+                    diagram and reactions.</h5>
+                <h4 class="d-flex justify-content-end">{{marks2}}</h4>
+                <a target="_blank" href=""
+                class="text-info"><h5>View Answer</h5></a>
+            </div>
+            <hr>
+            <div class="">
+                <h5 class="">Q9) c) What is Galvanising? Explain the process with neat labelled diagram to
+                    protect iron from corrosion.</h5>
+                <h4 class="d-flex justify-content-end">{{marks3}}</h4>
+                <a target="_blank" href=""
+                class="text-info"><h5>View Answer</h5></a>
+            </div>
+        </div>
+    </section>
+</div>

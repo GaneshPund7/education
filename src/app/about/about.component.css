@@ -1,0 +1,43 @@
+#divimg{
+    display: flex;
+    align-items: flex-end;
+    align-items: flex-start;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    margin: auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+#aboutimg{
+    height: 400px;
+    align-items: center;
+    height: 450px;
+    width: 100%;
+    display: flex;
+    border-radius: 10px;
+}
+#divimgg{
+    display: flex;
+    align-items: flex-end;
+    align-items: flex-start;
+    width: 100%;
+
+    margin: auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+#imgs{
+    border-radius: 10px;
+    height: 400px;
+    align-items: center;
+    height: 450px;
+    width: 100%;
+    display: flex;
+}
+.p:hover{
+ color: rgb(0, 60, 255);
+ text-decoration: dotted;
+ 
+}

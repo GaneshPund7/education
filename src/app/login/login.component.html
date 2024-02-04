@@ -1,0 +1,69 @@
+
+<div id="loginmain"class="container bg-image bg-cover w-100 img-responsive dhimg" style="background-image: url('../assets/LoginImg.jpg');">
+    <form action="" [formGroup]="myForm" (ngSubmit)="onSubmit()">
+    <div class="col">
+        <img src="" alt="">
+        <div class="row">
+        <div id="card"class="card bg-dark">
+            <div class="thumb-wrapper">
+                <tr class="te">
+                    <br>
+                    <br>
+                <h3 id="login" class="text-white d-flex justify-content-center bg-primary">Login</h3>
+                <br>
+                <div class="item">
+                    <h4 class="text-white">User Name: </h4>
+                    <input type="text" formControlName="userName"class="te">
+                    <div *ngIf=" fc['userName'].touched && fc['userName'].invalid"
+                    class="text-danger">
+                    <div *ngIf="fc['userName']?.errors?.['required']">
+                        <small>Please enter User Name</small>
+                    </div>
+                </div>
+                </div>
+                <br>
+                <div class="item">
+                    <h4 class=" text-white ">E-mail: </h4>
+                    <input type="email" formControlName="email" class="te">
+                    <div *ngIf=" fc['email'].touched && fc['email'].invalid"
+                                class="text-danger">
+                                <div *ngIf="fc['email']?.errors?.['required']">
+                                    <small>Please enter valid E-mail</small>
+                                </div>
+                            </div>
+                </div>
+                <br>
+                <div class="item ">
+                    <h4 class="text text-white ">Password: </h4>
+                    <input
+                    type="password"
+                    id="password"
+                    class="form-control form-control-sm"
+                    [type]="showPassword ? 'text' : 'password'"
+                    formControlName="password"
+                  />
+                  <div *ngIf=" fc['password'].touched && fc['password'].invalid"
+                  class="text-danger">
+                  <div *ngIf="fc['password']?.errors?.['required']">
+                      <small>Please enter strong password</small>
+                  </div>
+              </div>
+                  <!-- <button (click)="">
+                    <i class="fa" [ngClass]="{'fa-eye': showPassword, 'fa-eye-slash': !showPassword}"></i>
+                    {{ showPassword ? 'Hide' : 'Show' }} Password
+                  </button> -->
+                </div>
+                <br>
+                <div class="item d-flex justify-content-center">
+                    <button type="submit" class="btn btn-warning d-flex justify-content-center">Submit</button>
+                </div>
+            </tr>
+            </div>
+        </div>
+        </div>
+     
+         
+        </div>
+    </form>
+     
+</div>

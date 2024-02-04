@@ -1,0 +1,11 @@
+ 
+@media (max-width: 767px) {   
+    .dhimg {
+        height: 170px;
+    }
+}
+/* @media (min-width: 800px) {   
+    .footer {
+       display: none;
+    }
+} */

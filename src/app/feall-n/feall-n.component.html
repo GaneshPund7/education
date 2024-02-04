@@ -1,0 +1,91 @@
+<div class="container-fluid">
+  <section *ngIf="hideandshow">
+    <br>
+    <div class="col-sm-12">
+      <div class="row">
+     
+        <div class="col-sm-3">
+          <div class="card mb-4 bg-secondary" (click)="toggleView()">
+            <div class="container">
+              <h5 class="text-white mt-2">Engineering Chemistry</h5>
+              <h6 class="text-white mt-2">All solved quation paper of Chemistry subject</h6>
+              <div class="d-flex justify-content-center">
+                <button class="btn btn-warning rounded-pill btn-sm mt-2 mb-2"><span><i
+                      class="fa fa-download"></i></span> Download now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card mb-4 bg-secondary" (click)="toggleViewPhy()">
+            <div class="container">
+              <h5 class="text-white mt-2">Engineering Physics</h5>
+              <h6 class="text-white mt-2">All solved quation paper of Physics subject</h6>
+              <div class="d-flex justify-content-center">
+                <button class="btn btn-warning rounded-pill btn-sm mt-2 mb-2"><span><i
+                      class="fa fa-download"></i></span> Download now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card mb-4 bg-primary" (click)="toggleViewElectrical()">
+            <div class="container">
+              <h5 class="text-white mt-2">Engi Mechanical</h5>
+              <h6 class="text-white mt-2">All solved quation paper of Mechanical subject</h6>
+              <div class="d-flex justify-content-center">
+                <button class="btn btn-warning rounded-pill btn-sm mt-2 mb-2"><span><i
+                      class="fa fa-download"></i></span> Download now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+     
+      </div>
+    </div>
+    <div class="col-sm-12">
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="card mb-4 bg-dark" (click)="toggleViewElectronics()">
+            <div class="container">
+              <h5 class="text-white mt-2">Electronics Engineering </h5>
+              <h6 class="text-white mt-2">All solved quation paper of Electronics subject</h6>
+              <div class="d-flex justify-content-center">
+                <button class="btn btn-warning rounded-pill btn-sm mt-2 mb-2"><span><i
+                      class="fa fa-download"></i></span> Download now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card mb-4 bg-dark" (click)="toggleViewElectrical()">
+            <div class="container ">
+              <h5 class="text-white mt-2 ">Electrical Engineering</h5>
+              <h6 class="text-white mt-2">All solved quation paper of Electrical subject</h6>
+              <div class="d-flex justify-content-center">
+                <button class="btn btn-warning rounded-pill btn-sm mt-2 mb-2"><span><i
+                      class="fa fa-download"></i></span> Download now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+</div>
+<section>
+  <div class="row" *ngIf="isShowChem">
+    <app-chem (backToMain)="toggleView()"></app-chem>
+  </div>
+  <div class="row" *ngIf="isShowPhy">
+    <app-physics (backToMain)="toggleViewPhy()"></app-physics>
+  </div>
+  <div class="row" *ngIf="isShowElectrical">
+    <app-electrical (backToMain)="toggleViewElectrical()"></app-electrical>
+  </div>
+  <div class="row" *ngIf="isShowElectronics">
+    <app-electronics (backToMain)="toggleViewElectronics()"></app-electronics>
+  </div>
+ 
+</section>

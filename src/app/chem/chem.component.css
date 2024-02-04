@@ -1,0 +1,10 @@
+@media (max-width: 767px) {   
+    .hidenavitem {
+        display: none;
+    }
+}
+@media (min-width: 767px) {   
+    .decbtn {
+        display: none;
+    } 
+}
